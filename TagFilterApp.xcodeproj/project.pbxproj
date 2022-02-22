@@ -14,6 +14,8 @@
 		3E9D55AF27C45D46003376C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E9D55AD27C45D46003376C9 /* LaunchScreen.storyboard */; };
 		3E9D55BD27C4604D003376C9 /* plumbers.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E9D55BC27C4604D003376C9 /* plumbers.json */; };
 		3E9D55C127C4A6C1003376C9 /* Plumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9D55C027C4A6C1003376C9 /* Plumbers.swift */; };
+		3E9D55C527C57CF8003376C9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9D55C427C57CF8003376C9 /* MainView.swift */; };
+		3E9D55C827C58308003376C9 /* PlumberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9D55C727C58308003376C9 /* PlumberCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		3E9D55B027C45D46003376C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E9D55BC27C4604D003376C9 /* plumbers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plumbers.json; sourceTree = "<group>"; };
 		3E9D55C027C4A6C1003376C9 /* Plumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plumbers.swift; sourceTree = "<group>"; };
+		3E9D55C427C57CF8003376C9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3E9D55C727C58308003376C9 /* PlumberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlumberCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 		3E9D55BB27C45FE3003376C9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3E9D55C427C57CF8003376C9 /* MainView.swift */,
+				3E9D55C727C58308003376C9 /* PlumberCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -175,6 +181,8 @@
 				3E9D55A727C45D43003376C9 /* ViewController.swift in Sources */,
 				3E9D55A327C45D43003376C9 /* AppDelegate.swift in Sources */,
 				3E9D55A527C45D43003376C9 /* SceneDelegate.swift in Sources */,
+				3E9D55C827C58308003376C9 /* PlumberCell.swift in Sources */,
+				3E9D55C527C57CF8003376C9 /* MainView.swift in Sources */,
 				3E9D55C127C4A6C1003376C9 /* Plumbers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
