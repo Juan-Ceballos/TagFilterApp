@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
+        view.backgroundColor = .systemBackground
         mainView.cv.dataSource = self
     }
     
@@ -40,6 +40,7 @@ extension ViewController: UICollectionViewDataSource {
         }
         let plumber = plumbers[indexPath.row]
         cell.nameLabel.text = plumber.name
+        cell.tagLabel.text = plumber.tags.joined(separator: ", ")
         return cell
     }
     

@@ -1,7 +1,7 @@
 [
-{"name": "John Percy", "tags": ["friendly"], "description": "plumber"},
+{"name": "John Percy", "tags": ["affordable"], "description": "plumber"},
 {"name": "Mary Lue", "tags": ["friendly", "punctual", "educational"], "description": "plumber"},
-{"name": "Blake Percino", "tags": ["friendly", "affordable"], "description": "plumber"},
+{"name": "Blake Percino", "tags": ["punctual", "affordable"], "description": "plumber"},
 {"name": "Adam Shoemaker", "tags": ["friendly"], "description": "plumber"},
 {"name": "Juan Cebelos", "tags": ["educational"], "description": "plumber"},
 {"name": "Andrew Franz", "tags": ["punctual", "affordable", "educational"], "description": "plumber"},
