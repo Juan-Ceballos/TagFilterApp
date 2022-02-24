@@ -31,8 +31,6 @@ class MainView: UIView {
     var tagView: UIView = {
         let uiv = UIView()
         uiv.backgroundColor = .systemBackground
-        uiv.layer.borderWidth = 1
-        uiv.layer.borderColor = CGColor(red: 0, green: 0, blue: 1, alpha: 1)
         return uiv
     }()
     
@@ -41,6 +39,7 @@ class MainView: UIView {
         button.backgroundColor = .systemTeal
         button.setTitle("Friendly", for: .normal)
         button.setTitleColor(.systemIndigo, for: .normal)
+        button.tag = 0
         return button
     }()
     
@@ -49,6 +48,7 @@ class MainView: UIView {
         button.backgroundColor = .systemTeal
         button.setTitle("Punctual", for: .normal)
         button.setTitleColor(.systemIndigo, for: .normal)
+        button.tag = 1
         return button
     }()
     
@@ -57,6 +57,7 @@ class MainView: UIView {
         button.backgroundColor = .systemTeal
         button.setTitle("Educational", for: .normal)
         button.setTitleColor(.systemIndigo, for: .normal)
+        button.tag = 2
         return button
     }()
     
@@ -65,6 +66,7 @@ class MainView: UIView {
         button.backgroundColor = .systemTeal
         button.setTitle("Affordable", for: .normal)
         button.setTitleColor(.systemIndigo, for: .normal)
+        button.tag = 3
         return button
     }()
         
